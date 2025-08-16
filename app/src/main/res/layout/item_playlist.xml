@@ -1,6 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:backgroundTint="@android:color/transparent">
+
+    <Button
+        android:id="@+id/btnName"
+        style="@style/NeonButtonStyle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:text="Название плейлиста"
+        android:textAlignment="textStart"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnUp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        style="@style/NeonButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Изм."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUp"
+        style="@style/NeonButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/neon_triangle"
+        android:rotation="90"
+        android:text="  "
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnName"
+        app:layout_constraintEnd_toStartOf="@+id/btnDown"
+        app:layout_constraintTop_toTopOf="@+id/btnName" />
+
+    <Button
+        android:id="@+id/btnDown"
+        style="@style/NeonButtonStyle"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/neon_triangle"
+        android:rotation="270"
+        android:text="  "
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnName"
+        app:layout_constraintEnd_toStartOf="@+id/btnEdit"
+        app:layout_constraintTop_toTopOf="@+id/btnName" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

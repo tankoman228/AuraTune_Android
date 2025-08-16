@@ -5,4 +5,23 @@
 
     <color name="neon_pink">#FFFF00FF</color>
     <color name="neon_pink_dark">#820082</color>
+
+
+
+    <!-- Цвета для обводки текста (DL) -->
+    <color name="text_stroke_purple">#9C27B0</color>
+    <color name="text_stroke_blue">#2196F3</color>
+    <color name="text_stroke_green">#4CAF50</color>
+    <color name="text_stroke_light_green">#8BC34A</color>
+    <color name="text_stroke_yellow">#FFEB3B</color>
+    <color name="text_stroke_light_yellow">#FFF176</color>
+    <color name="text_stroke_white">#FFFFFF</color>
+
+    <!-- Цвета для градиента подчеркивания (CC и EV) -->
+    <color name="gradient_purple">#9C27B0</color>
+    <color name="gradient_blue">#00BCD4</color>
+    <color name="gradient_light_green">#8BC34A</color>
+    <color name="gradient_yellow">#FFEB3B</color>
+    <color name="gradient_orange">#FF9800</color>
+    <color name="gradient_red">#F44336</color>
 </resources>
